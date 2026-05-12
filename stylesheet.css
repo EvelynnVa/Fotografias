@@ -42,6 +42,7 @@ h3 {
     position: sticky;
     top: 0;
     background-color: black;
+    z-index: 10;
 }
 
 .navbar ul {
@@ -99,37 +100,65 @@ h3 {
     margin: 20px;
 }
 
+.experiencia h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
 .timeline {
     position: relative;
+    overflow: hidden;
 }
 
 .timeline::before {
     content: '';
     position: absolute;
     left: 50%;
-    top: 0;
-    bottom: 0;
+    height: 75%;
     width: 2px;
     background-color: chartreuse;
+}
+
+.timeline-derecha::before {
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;       /* lo hace círculo */
+    background-color: chartreuse;
+    left: -34.45%;
+}
+
+.timeline-izquierda::before {
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;       /* lo hace círculo */
+    background-color: chartreuse;
+    right: -35%;
 }
 
 .timeline-derecha {
     margin-left: 60%;
     margin-right: 10%;
     text-align: center;
+    position: relative;
 }
 
 .timeline-izquierda {
     margin-right: 60%;
     margin-left: 10%;
     text-align: center;
+    position: relative;
 }
 
-.timeline-derecha h4 {
+.timeline-derecha p {
     text-align: justify;
 }
 
-.timeline-izquierda h4 {
+.timeline-izquierda p {
     text-align: justify;
 }
 
