@@ -220,4 +220,14 @@ h3 {
 
 /* Contacto */
 
+.contacto h1 {
+    text-align: center;
+}
+
+.contenido-contacto {
+    display: flex;
+}
+
+
+
 /* Portafolio tab (pte confirmacion)*/
