@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nombre del sitio</title>
-  <link rel="stylesheet" href="stylesheet.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nombre del sitio</title>
+    <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
 
@@ -119,7 +118,7 @@
                 <h1>Hablemos!</h1>
                 <p>Porfavor, llena el formulario y me pondre en contacto contigo pronto.</p>
             </div>
-            <div class="form-contacto">
+            <form id="form-contacto" class="form-contacto">
                 <label for="nombre">Nombre completo <span class="requerido">(requerido)</span></label>
                 <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
 
@@ -133,9 +132,13 @@
                 <textarea id="descripcion" name="descripcion" placeholder="Informacion del evento" rows="5"></textarea>
 
                 <button type="submit">Enviar información</button>
-            </div>
+            </form>
         </div>
     </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="config.js"></script>
+    <script src="script.js"></script>
 
 </body>
 </html>

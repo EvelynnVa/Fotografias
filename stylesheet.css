@@ -20,6 +20,10 @@ button {
     padding: 10px 30px;
 }
 
+button:hover {
+    border: white 2px solid;
+}
+
 h1 {
     margin-bottom: 20px;
 }
@@ -248,8 +252,10 @@ h3 {
 .form-contacto {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 15px;
     width: 450px;
+    height: 500px;
 }
 
 .form-contacto input,
@@ -277,6 +283,12 @@ h3 {
 span {
     font-size: 10px;
     color: grey;
+}
+
+.confirmacion {
+    color: white;
+    text-align: center;
+    font-size: large;
 }
 
 /* Portafolio tab (pte confirmacion)*/
