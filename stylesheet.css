@@ -228,6 +228,52 @@ h3 {
     display: flex;
 }
 
+.contacto {
+    margin: 40px 20px;
+}
 
+.contenido-contacto {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 40px;
+}
+
+.info-contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 450px;
+}
+
+.form-contacto {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 450px;
+}
+
+.form-contacto input,
+.form-contacto textarea {
+    background-color: transparent;
+    border: 1px solid aliceblue;
+    border-radius: 7px;
+    padding: 12px 15px;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: aliceblue;
+    resize: vertical;
+}
+
+.form-contacto input:focus,
+.form-contacto textarea:focus {
+    outline: none;
+    border-color: chartreuse;
+}
+
+.form-contacto button {
+    align-self: flex-start;
+}
 
 /* Portafolio tab (pte confirmacion)*/
