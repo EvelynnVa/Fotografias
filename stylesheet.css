@@ -16,7 +16,7 @@ button {
     background-color: transparent;
     font-size: 18px;
     border-radius: 7px;
-    border: chartreuse 2px solid;
+    border: red 2px solid;
     padding: 10px 30px;
 }
 
@@ -30,7 +30,7 @@ h1 {
 
 h2 {
     margin-bottom: 15px;
-    color: chartreuse;
+    color: red;
 }
 
 h3 {
@@ -69,6 +69,8 @@ h3 {
 .texto-hero {
     align-content: center;
     margin: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .texto-hero p {
@@ -77,6 +79,11 @@ h3 {
 
 .collage-hero {
     margin: 50px;
+}
+
+.carrusel {
+    width: 100px;
+    height: 100px;
 }
 
 /* Portafolio main */
@@ -97,6 +104,16 @@ h3 {
 .portafolio img {
     height: 260px;
     width: 390px;
+}
+
+/* Clientes */
+
+.clientes h1 {
+    text-align: center;
+}
+
+.cliente img {
+    align-items: center;
 }
 
 /* Experiencia */
@@ -123,7 +140,7 @@ h3 {
     left: 50%;
     height: 75%;
     width: 2px;
-    background-color: chartreuse;
+    background-color: red;
 }
 
 .timeline-derecha::before {
@@ -132,7 +149,7 @@ h3 {
     width: 12px;
     height: 12px;
     border-radius: 50%;       /* lo hace círculo */
-    background-color: chartreuse;
+    background-color: red;
     left: -34.45%;
 }
 
@@ -142,7 +159,7 @@ h3 {
     width: 12px;
     height: 12px;
     border-radius: 50%;       /* lo hace círculo */
-    background-color: chartreuse;
+    background-color: red;
     right: -35%;
 }
 
@@ -200,25 +217,25 @@ h3 {
 
 .barra-70 {
     width: 700px;
-    background-color: chartreuse;
+    background-color: red;
     height: 20px;
 }
 
 .barra-50 {
     width: 500px;
-    background-color: chartreuse;
+    background-color: red;
     height: 20px;
 }
 
 .barra-80 {
     width: 800px;
-    background-color: chartreuse;
+    background-color: red;
     height: 20px;
 }
 
 .barra-100 {
     width: 1000px;
-    background-color: chartreuse;
+    background-color: red;
     height: 20px;
 }
 
@@ -273,7 +290,7 @@ h3 {
 .form-contacto input:focus,
 .form-contacto textarea:focus {
     outline: none;
-    border-color: chartreuse;
+    border-color: red;
 }
 
 .form-contacto button {
