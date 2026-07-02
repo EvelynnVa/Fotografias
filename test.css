@@ -1,0 +1,38 @@
+/* General */
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    color: aliceblue;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #232222;
+}
+
+button {
+    color: white;
+    background-color: transparent;
+    font-size: 18px;
+    border-radius: 7px;
+    border: red 2px solid;
+    padding: 10px 30px;
+}
+
+button:hover {
+    border: white 2px solid;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 15px;
+    color: red;
+}
+
+h3 {
+    margin-bottom: 10px;
+}
